@@ -1,5 +1,9 @@
 # 리디북스 콘텐츠 제작 가이드
 
+이 문서는.
+- 리디북스 뷰어에서 콘텐츠를 최적의 상태로 제공할 수 있는 방법을 제시합니다.
+- 리디북스 뷰어의 스펙을 플랫폼 별로 안내합니다.
+
 ## 목차
 
 - [ePub 제작 가이드](guide/epub.md)
@@ -39,3 +43,36 @@
   - [책갈피 삽입](guide/pdf.md#insert-bookmark)
   - [재단선 삭제](guide/pdf.md#crop-cutting-line)
 
+## ePub 지원
+
+리디북스는 IDPF(Independent Digital Publishing Forum)에서 관리하는 전자책 공개 표준인 ePub을 지원합니다.
+
+현재 지원 중인 버전은 ePub 2.0.1이며, ePub 3는 지원하지 않고 있습니다.
+
+ePub 3를 지원하지 않고 있지만, HTML5 및 CSS3를 기반으로하며 스펙의 일부를 따르고 있습니다.
+
+ePub 2 호환용으로 제작된 ePub 3는 ePub 2 기반으로 동작합니다.
+
+플랫폼 | 지원 여부
+---|---
+Android | O
+iOS | O
+PAPER | O
+Windows | O
+macOS | O
+Web | O
+
+## PDF 지원
+
+리디북스는 ISO(International Organization for Standardization)에서 관리하는 국제 표준 문서 형식인 PDF(ISO 32000)를 지원합니다.
+
+현재 지원 중인 버전은 PDF 1.0 ~ 1.7이며, 최신 스펙인 PDF 1.8은 일부 플랫폼에서만 지원하고 있습니다.
+
+플랫폼 | 지원 여부
+---|---
+Android | O
+iOS | O
+PAPER | O
+Windows | △
+macOS | △
+Web | X
