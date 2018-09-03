@@ -280,14 +280,14 @@ HTML에 이미지 함께 포함<br>→ 이미지가 이어져 보임 | HTML당 �
 
 ![](images/epub/footnote-body-case-5.png)
 
-# <a name="epub-test"></a>ePub 테스트
+# <a name="epub-test"></a>EPUB 테스트
 
 ## <a name="epub-validation-by-sigil"></a>유효성 검사 - Sigil
 
 ![](images/epub/epub-validation-by-sigil.png)
 
-1. Sigil을 설치하고 테스트할 ePub 파일 열기 (단축키 Ctrl+O)
-2. ePub 유효성 테스트를 클릭 (단축키 Alt+F2)
+1. Sigil을 설치하고 테스트할 EPUB 파일 열기 (단축키 Ctrl+O)
+2. EPUB 유효성 테스트를 클릭 (단축키 Alt+F2)
 3. 유효성 검사 결과를 확인 후 오류 수정 (결과 클릭 시 오류 페이지로 이동)
 
 ## <a name="epub-test-by-app"></a> 파일보기 - 리디북스 뷰어

@@ -6,7 +6,7 @@
 
 ## 목차
 
-- [ePub 제작 가이드](guide/epub.md)
+- [EPUB 제작 가이드](guide/epub.md)
   - [서문](guide/epub.md#preface)
     - [안내](guide/epub.md#foreword)
     - [참고](guide/epub.md#reference)
@@ -31,7 +31,7 @@
       - [주석 기본 HTML 구조](guide/epub.md#html-footnote-html-structure)
       - [주석 제목 HTML 예시](guide/epub.md#html-footnote-title-ex)
       - [주석 설명 HTML 예시](guide/epub.md#html-footnote-body-ex)
-  - [ePub 테스트](guide/epub.md#epub-test)
+  - [EPUB 테스트](guide/epub.md#epub-test)
     - [유효성 검사 - Sigil](guide/epub.md#epub-validation-by-sigil)
     - [파일보기 - 리디북스 뷰어](guide/epub.md#epub-test-by-app)
 - [PDF 제작 가이드](guide/pdf.md)
@@ -43,24 +43,24 @@
   - [책갈피 삽입](guide/pdf.md#insert-bookmark)
   - [재단선 삭제](guide/pdf.md#crop-cutting-line)
 
-## ePub 지원
+## EPUB 지원
 
-리디북스는 IDPF(Independent Digital Publishing Forum)에서 관리하는 전자책 공개 표준인 ePub을 지원합니다.
+리디북스는 IDPF(Independent Digital Publishing Forum)에서 관리하는 전자책 공개 표준인 EPUB을 지원합니다.
 
-현재 지원 중인 버전은 ePub 2.0.1이며, ePub 3는 지원하지 않고 있습니다.
+현재 지원 중인 버전은 EPUB 2.0.1이며, EPUB 3는 지원하지 않고 있습니다.
 
-ePub 3를 지원하지 않고 있지만, HTML5 및 CSS3를 기반으로하며 스펙의 일부를 따르고 있습니다.
+EPUB 3를 지원하지 않고 있지만, HTML5 및 CSS3를 기반으로하며 스펙의 일부를 따르고 있습니다.
 
-ePub 2 호환용으로 제작된 ePub 3는 ePub 2 기반으로 동작합니다.
+EPUB 2 호환용으로 제작된 EPUB 3는 EPUB 2 기반으로 동작합니다.
 
-플랫폼 | 지원 여부
----|---
-Android | O
-iOS | O
-PAPER | O
-Windows | O
-macOS | O
-Web | O
+| 플랫폼     | 지원 여부 |
+| ------- | ----- |
+| Android | O     |
+| iOS     | O     |
+| PAPER   | O     |
+| Windows | O     |
+| macOS   | O     |
+| Web     | O     |
 
 ## PDF 지원
 
@@ -68,11 +68,11 @@ Web | O
 
 현재 지원 중인 버전은 PDF 1.0 ~ 1.7이며, 최신 스펙인 PDF 1.8은 일부 플랫폼에서만 지원하고 있습니다.
 
-플랫폼 | 지원 여부
----|---
-Android | O
-iOS | O
-PAPER | O
-Windows | △
-macOS | △
-Web | X
+| 플랫폼     | 지원 여부 |
+| ------- | ----- |
+| Android | O     |
+| iOS     | O     |
+| PAPER   | O     |
+| Windows | △     |
+| macOS   | △     |
+| Web     | X     |
